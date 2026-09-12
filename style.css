@@ -8,9 +8,56 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #241536;
+  color: white;
+  padding: 20px 40px;
+}
+
+nav .logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav .logo span {
+  color: #a855f7;
+}
+
+nav .menu {
+  display: flex;
+  gap: 24px;
+}
+
+nav .menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav .menu a:hover {
+  color: #a855f7;
+}
+
+nav button {
+  background-color: #a855f7;
+  color: white;
+  border: none;
+  padding: 8px 21px;
+  border-radius: 22px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #8b3fd9;
+}
+
 header {
-  background-color: #1d3070;
-  background-image: linear-gradient(135deg, #1d3070, #1a2553);
+  background-color: #3c2464;
+  background-image: linear-gradient(135deg, #3c2464, #241536);
   color: white;
   text-align: center;
   padding: 80px 20px;
@@ -23,12 +70,12 @@ header h1 {
 
 header p {
   font-size: 15px;
-  color: #d0c4e0;
+  color: #c9b8e0;
   margin-bottom: 24px;
 }
 
 header button {
-  background-color: #658fd3;
+  background-color: #a855f7;
   color: white;
   border: none;
   padding: 8px 21px;
@@ -38,5 +85,5 @@ header button {
 }
 
 header button:hover {
-  background-color: #658fd3;
+  background-color: #a855f7;
 }
